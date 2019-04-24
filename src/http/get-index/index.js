@@ -18,7 +18,7 @@ let body = `
 
     <h1 class="center-text">
       <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello England lets rock!
+      Hello England lets rock
     </h1>
 
     <p class="center-text">
@@ -27,7 +27,7 @@ let body = `
 
   </body>
 </html>
-`
+`;
 
 exports.handler = async function http(req) {
   console.log(req)
